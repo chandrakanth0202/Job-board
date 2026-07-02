@@ -60,7 +60,7 @@ git init
 git add .
 git commit -m "Initial commit: Afterhours job board"
 git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
+git remote add origin https://github.com/chandrakanth0202/Job-board
 git push -u origin main
 ```
 
@@ -76,7 +76,7 @@ git push -u origin main
    vercel login
    vercel link
    ```
-2. **Create a token** at [vercel.com/account/tokens](https://vercel.com/account/tokens).
+2. **Create a token** at [vercel.com/account/tokens](https://job-board-qnmz.vercel.app/)
 3. **Add GitHub repo secrets** (Settings → Secrets and variables → Actions):
 
    | Secret name         | Value                                  |
